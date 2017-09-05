@@ -1,0 +1,114 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    width: auto;
+    background-color: whitesmoke;
+    font-family: "Source Sans Pro", "Arial",  sans-serif;
+}
+a:link, a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+a:hover {
+    color: #888;
+}
+/* HEADER CSS */
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    background-color: rgba(64, 64, 64, 0.75);
+    height: 75px;
+    padding: auto;
+    margin: 0px;
+    font-family: "Carrois Gothic SC", sans-serif;
+}
+header div {
+    text-align: center;
+    height: inherit;
+    align-content: center;
+}
+header ul {
+    list-style-type: none;
+    height: inherit;
+    align-items: center;
+    align-content: center;
+    margin: 0px;
+}
+header ul li {
+    vertical-align: middle;
+    display: inline-block;
+    width: auto:
+    text-align: center;
+    vertical-align: center;
+    align-content: center;
+    height: inherit;
+    padding: 0px 20px;
+}
+
+header ul li a:link, header ul li a:visited, header ul li a:hover {
+    color: #ddd;
+}
+
+header ul li a {
+    /*Set font stuff*/
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ddd;
+    /*Flex box content*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*Inherit size*/
+    width: inherit;
+    height: inherit;
+    padding: inherit;
+    /*transition*/
+    transition: all 0.5s ease;
+}
+header ul li a:hover {
+    background-color: rgba(64, 64, 64, 1.0);
+    color: white;
+}
+/* END OF HEADER CSS */
+/*Body Groups*/
+#top, #projects, #timeline, #contact {
+    text-align: center;
+    align-content: center;
+    height: auto;
+    padding: 100px 0px;
+    color: black;
+}
+/* BEGIN ABOUT SECTION CSS*/
+.left, .right {
+    display: inline-block;
+    float: none;
+    padding: 10px;
+    vertical-align: middle;
+    text-align: justify;
+}
+.left {
+    width: 45%;
+}
+.left h1, .right h1 {
+    text-align: center;
+}
+.right {
+    width: 45%;
+    overflow: hidden;
+    align-content: center;
+}
+.right img {
+    display: block;
+    margin: 0px auto;
+    max-width: 100%;
+    filter: none;
+    -webkit-filter: blur(0px); 
+    -moz-filter: blur(0px); 
+    -ms-filter: blur(0px);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+}
+/* END ABOUT SECTION CSS*/

@@ -1,0 +1,213 @@
+/*header elements css for every page*/
+header {
+    background-color: #333;
+    margin: 0px;
+    padding: 0px;
+    height: 55px;
+    color: whitesmoke;
+    z-index: 1;
+    overflow-y: hidden;
+    
+    text-align: left;
+    padding-left: 50px;
+
+}
+
+header h1 {
+	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+    color: yellowgreen;
+}
+
+.navcontain {
+    background-color: #444;
+    float: right;
+    
+    height: 40px;
+    margin-top: 5px;
+    width: 493px;
+    
+    margin-right: 10px;
+    text-align: center;
+    
+    border-radius: 5px;
+    border-top:2px solid #0e0e0e;
+    border-right:2px solid #0e0e0e;
+    border-bottom:2px solid #0e0e0e;
+    border-left:2px solid #0e0e0e;
+}
+
+.navcontain a {
+    display: inline-block; /*allows width/height to be set on anchor*/
+    
+    width: 116px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    /*colors and decorations*/
+    text-decoration: none;
+    background: #444444;
+    color:#eee;
+    border-top:2px solid #999;
+    border-right:2px solid #222;
+    border-bottom:2px solid #222;
+    border-left:2px solid #999;
+}
+
+
+
+
+.leftnav {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.rightnav {
+    border-radius: 0px 5px 5px 0px;
+}
+
+header h1 {
+    text-align: left;
+    float: left;
+    margin: 0px;
+    padding-top: 8px;
+    padding-left: 5px;
+}
+
+nav a:hover {
+    background: #aaa;
+    border:2px solid #aaa;
+}
+
+body.down header.clone {
+    transform: translateY(0);
+}
+
+/*sticky version of the heder elements*/
+header.clone {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    transform: translateY(-100000%);
+    transition: 0.2s transform cubic-bezier(.3,.73,.3,.74);
+}
+body.down nav {
+
+}
+body.down #navcontain {
+
+}
+
+/*Miscellaneous Utility Classes*/
+#flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.centeredBox {
+    
+}
+
+/*forces the footer to the bottom of the page*/
+html, body {
+    height: 100%;
+    width: 1000px;
+    margin: auto;
+    padding: 0px;
+    background-color: slategrey;
+}
+
+#wrapper {
+    width: inherit;
+    min-height: 100%;
+    padding-bottom: 0; /*footer height*/
+    position: relative;
+    overflow: hidden; /*keep footter down!*/
+    text-align: center;
+    background-color: lightgrey;
+}
+
+#text {
+    padding: 0px 100px;
+}
+
+/*footer css for every page*/
+footer {
+    background-color: #333;
+    width: 100%;
+    height: 60px;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.link-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+    padding-top: 12px;
+}
+
+.link-list a {
+    border-radius: 50%;
+    background-color: inherit;
+    width: auto;
+    height: auto;
+    padding: 7px;
+    background-repeat: no-repeat;
+    margin: 0px 3px 0px 3px;
+    border: 2px solid white;
+    transition-duration: 1.25s;
+}
+
+.link-list a:hover {
+    transition-duration: 1.25s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    background-color: darkcyan;
+}
+
+.icon-github {
+    width: 20px;
+    height: 20px;
+    background: url(icons/GitHub.png);
+    background-size: contain;
+    background-position: center;
+}
+
+.icon-mail {
+    width: 20px;
+    height: 20px;
+    background: url(icons/mail.png);
+    background-size: contain;
+    background-position: center;
+}
+
+.icon-linkedin {
+    width: 20px;
+    height: 20px;
+    background: url(icons/in.png);
+    background-size: contain;
+    background-position: center;
+}
+
+.icon-ld {
+    width: 20px;
+    height: 20px;
+    background: url(icons/LD.png);
+    background-size: contain;
+    background-position: center;
+}
+
+.icon-resume {
+    width: 20px;
+    height: 20px;
+    background: url(icons/document.png);
+    background-size: contain;
+    background-position: center;
+}
