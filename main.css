@@ -79,8 +79,11 @@ header ul li a:hover {
     text-align: center;
     align-content: center;
     height: auto;
-    padding: 100px 0px;
+    padding: 20px 0px;
     color: black;
+}
+#top {
+    padding-top: 100px;
 }
 /* BEGIN ABOUT SECTION CSS*/
 .left, .right {
@@ -112,3 +115,40 @@ header ul li a:hover {
     filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
 }
 /* END ABOUT SECTION CSS*/
+
+/* START PROJECTS SECTION CSS */
+#pcontain {
+    width: 90%;
+    column-fill: balance;
+    margin: 0px auto;
+}
+
+#pcontain span {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 0px;
+    left: 0px;
+    transition: 0.5s;
+    color: transparent;
+    padding: 5% 5%;
+}
+
+.project {
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    margin: 10px;
+    padding: 0px;
+}
+
+#pcontain span:hover {
+    color: black;
+    background-color: rgba(64, 64, 100, 0.4);
+}
+
+h3 {
+    font-family: "Carrois Gothic SC", sans-serif;
+}
+
+
