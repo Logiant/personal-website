@@ -142,13 +142,49 @@ header ul li a:hover {
     padding: 0px;
 }
 
+.project img {
+    width: 256px;
+    height: 256px;
+}
+
 #pcontain span:hover {
-    color: black;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em #000;
     background-color: rgba(64, 64, 100, 0.4);
 }
 
 h3 {
     font-family: "Carrois Gothic SC", sans-serif;
 }
+
+#cv {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 24px;
+    margin: auto;
+    
+    background-color: rgb(140, 140, 222);
+    color: black;
+    
+    vertical-align: middle;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+}
+/*timeline style*/
+/* Central bar */
+#timelineCortex {
+    position:relative;
+    width:3px;
+    height:500px;
+    background:-webkit-gradient(linear, left top, left bottom, from(rgba(172, 181, 208,1)), to(rgba(172, 181, 208,0)));
+    margin:0 auto;
+}
+
+/* Timeline styles */
+
+
+
 
 
