@@ -186,5 +186,9 @@ h3 {
 
 
 
-
+#contact img {
+    width: 120px;
+    height: auto;
+    padding: 0px 10px;
+}
 
